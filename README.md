@@ -2,7 +2,7 @@
 
 GaLity is an open-source implementation to compute metrics on sets of gadgets which has been developed by Andreas Follner.
 If you use Gality in your research, please cite the following paper:
-[Analyzing the Gadgets Towards a Metric to Measure Gadget Quality](https://www.abartel.net/static/p/essos2016-analyzingGadgets.pdf)
+**Andreas Follner, Alexandre Bartel, Eric Bodden: Analyzing the Gadgets - Towards a Metric to Measure Gadget Quality, in Proceedings of the International Symposium on Engineering Secure Software and Systems (ESSoS), London, UK, 2016** [bib](https://www.abartel.net/static/p/essos2016-analyzingGadgets.bib.txt) [pdf] (https://www.abartel.net/static/p/essos2016-analyzingGadgets.pdf)
 
 # How to compile Gality?
 
