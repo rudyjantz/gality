@@ -237,12 +237,22 @@ public class Program {
 					if (strArray13[strArray13.length - 1].contains("0x"))
 					{
 						int retOffset = Program.get_ret_offset(strArray13[strArray13.length - 1]);
-						if (retOffset % 4 == 0 && retOffset <= 16)
-							Program.found_gadget(str3);
+						if (retOffset % 4 == 0 && retOffset <= 16) {
+                            try {
+							    Program.found_gadget(str3);
+                            } catch (Exception e) {
+                                continue;
+                            }
+                        }
 
 					}
-					else
-						Program.found_gadget(str3); 
+					else {
+                        try {
+						    Program.found_gadget(str3);
+                        } catch (Exception e) {
+                            continue;
+                        }
+                    }
 				}
 
 			}
