@@ -1,0 +1,3 @@
+bin/
+*.swp
+run-gality-on-all-benchmarks-and-chains.sh
